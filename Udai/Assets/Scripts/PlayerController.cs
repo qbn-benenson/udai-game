@@ -57,7 +57,7 @@ public class PlayerController : MonoBehaviour
         }
         else if (Input.GetKeyUp(KeyCode.LeftControl)) // when you let go of control, return to normal speed
         {
-            speed = 5f;
+            speed = 3.5f;
         }
 
         if (moveDirection != Vector2.zero) //only change last direction if moved
